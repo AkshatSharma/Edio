@@ -39,7 +39,6 @@ class LoginViewController: UIViewController {
 
     @IBAction func loginTapped(_ sender: Any) {
         getUnivCollection(selectedUniversity: "University of Minnesota")
-        getOrgs()
     }
     
     @IBAction func signUpTapped(_ sender: Any) {
@@ -69,13 +68,13 @@ class LoginViewController: UIViewController {
                     
                     if let value = self.univList[count]["OrgName"] {
                         self.univOrgNames.append(value as! String)
+                        print("Appended")
+                        print(self.univOrgNames[count])
                     }
                     count = count + 1
                 }
             }
         }
-        
-        let query = db.collection("Organizations").whereField("University", isEqualTo: selectedUniversity)
     }
 }
 

@@ -13,6 +13,7 @@
 		0262F6FE207C785E0000254F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0262F6FD207C785E0000254F /* Assets.xcassets */; };
 		0262F701207C785E0000254F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0262F6FF207C785E0000254F /* LaunchScreen.storyboard */; };
 		0262F709207C79FC0000254F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0262F708207C79FC0000254F /* GoogleService-Info.plist */; };
+		0262F70B207DD24F0000254F /* SelectUniversityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0262F70A207DD24F0000254F /* SelectUniversityTableViewController.swift */; };
 		8CE9669755C7C90145A92B6B /* Pods_Edio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0CAC3ABBEE2F06FD62EB5C /* Pods_Edio.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		0262F700207C785E0000254F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0262F702207C785E0000254F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0262F708207C79FC0000254F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0262F70A207DD24F0000254F /* SelectUniversityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUniversityTableViewController.swift; sourceTree = "<group>"; };
 		46D969128145CDCF6FA9287C /* Pods-Edio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Edio/Pods-Edio.release.xcconfig"; sourceTree = "<group>"; };
 		4C0CAC3ABBEE2F06FD62EB5C /* Pods_Edio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Edio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0646E9CFD062743831EAF70 /* Pods-Edio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Edio/Pods-Edio.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			children = (
 				0262F6F6207C785E0000254F /* AppDelegate.swift */,
 				0262F6F8207C785E0000254F /* LoginViewController.swift */,
+				0262F70A207DD24F0000254F /* SelectUniversityTableViewController.swift */,
 				0262F708207C79FC0000254F /* GoogleService-Info.plist */,
 				0262F6FA207C785E0000254F /* Main.storyboard */,
 				0262F6FD207C785E0000254F /* Assets.xcassets */,
@@ -241,6 +244,7 @@
 			files = (
 				0262F6F9207C785E0000254F /* LoginViewController.swift in Sources */,
 				0262F6F7207C785E0000254F /* AppDelegate.swift in Sources */,
+				0262F70B207DD24F0000254F /* SelectUniversityTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
